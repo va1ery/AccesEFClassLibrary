@@ -5,8 +5,8 @@ namespace AccesEFClassLibrary
 {
     public class ApplicationDbContext : DbContext
     {
-        public ApplicationDbContext(DbContextOptions opions)
-            : base(opions)
+        public ApplicationDbContext(DbContextOptions options)
+            : base(options)
         {
 
         }
